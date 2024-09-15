@@ -11,9 +11,9 @@ $(document).ready(function () {
                 $("#temp").html(data.main.temp);
                 $("#feels").html(data.main.feels_like);
                 $("myWeather").val("");
-                console.log(data)
+                console.log(data);
             }
-            myweather()
+            myweather();
         }
 
     });
@@ -28,8 +28,9 @@ $(document).ready(function () {
             $("#temp").html(data.main.temp);
             $("#feels").html(data.main.feels_like);
             $("myWeather").val("");
-            console.log(data)
+            console.log(data);
         }
-        myweather()
+        myweather();
     });
+    
 });
